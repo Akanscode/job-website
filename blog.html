@@ -58,7 +58,9 @@
               :class="{'block': show, 'hidden': !show}"
               class="block w-full flex-grow border-t lg:border-0 mt-0 lg:mt-0 md:flex md:justify-end md:w-auto"
             >
-              <div class="space-x-5 py-4">
+              <div
+                class="space-x-5 py-4 flex flex-col lg:flex-row items-center"
+              >
                 <a
                   href="index1.html"
                   class="block md:inline-block text-base font-bold px-2 py-2 leading-none rounded-md lg:text-white hover:text-gray-700 hover:bg-purple-400 hover:border-b-4 hover:border-purple-600"
@@ -189,8 +191,12 @@
         </div>
       </div>
     </header>
-    <section class="container bg-slate-100 min-h-full min-w-full bg-cover">
-      <div class="px-4 py-16 lg:py-24 lg:px-2 md:px-24 mx-auto">
+    <section
+      class="container bg-slate-100 min-h-full min-w-full bg-cover mx-auto"
+    >
+      <div
+        class="px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      >
         <div class="text-center">
           <h2 class="text-3xl lg:text-4xl font-bold capitalize">blog</h2>
           <div class="mt-4">
@@ -202,12 +208,14 @@
             ></span>
           </div>
         </div>
-        <div class="bg-white bg-cover shadow-lg lg:py-16 py-5 lg:mx-12">
-          <div class="grid lg:grid-cols-2 gap-10 mt-12 lg:mx-16">
-            <div class="lg:max-w-3xl">
-              <div class="grid lg:grid-cols-1 sm:mx-auto">
+        <div class="bg-white bg-cover min-w-full shadow-lg">
+          <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-4 py-8 lg:mx-16"
+          >
+            <div class="">
+              <div class="flex flex-col items-center">
                 <div
-                  class="mb-4 col-span-3 rounded-md transition-shadow duration-300 bg-white shadow-sm"
+                  class="mb-4 rounded-md transition-shadow duration-300 bg-white shadow-sm"
                 >
                   <img
                     src="https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODh8fHdlYnNpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -233,7 +241,7 @@
                         <span class="text-gray-500">- 23 feb 2022</span>
                       </a>
                     </p>
-                    <p class="mb-4 text-gray-700">
+                    <p class="mb-4 text-gray-700 text-justify">
                       Are you a software engineer, front-end developer, computer
                       programmer, coder or product designer? Searching for a job
                       can be hard work! But, the good news...
@@ -246,7 +254,7 @@
                   </div>
                 </div>
                 <div
-                  class="mb-4 col-span-3 rounded-md transition-shadow duration-300 bg-white shadow-sm"
+                  class="mb-4 rounded-md transition-shadow duration-300 bg-white shadow-sm"
                 >
                   <img
                     src="https://images.unsplash.com/photo-1552120476-9ee56c8611f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUzfHx3ZWJzaXRlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -272,7 +280,7 @@
                         <span class="text-gray-500">- 23 feb 2022</span>
                       </a>
                     </p>
-                    <p class="mb-4 text-gray-700">
+                    <p class="mb-4 text-gray-700 text-justify">
                       Are you a front end developer? Is your company looking to
                       hire one? Either way, it is extremely important to be
                       prepared for the interview process....
@@ -311,7 +319,7 @@
                         <span class="text-gray-500">- 23 feb 2022</span>
                       </a>
                     </p>
-                    <p class="mb-4 text-gray-700">
+                    <p class="mb-4 text-gray-700 text-justify">
                       Are you a software engineer, front-end developer, computer
                       programmer, coder or product designer? Searching for a job
                       can be hard work! But, the good news...
@@ -347,7 +355,7 @@
                         <span class="text-gray-500">- 23 feb 2022</span>
                       </a>
                     </p>
-                    <p class="mb-4 text-gray-700">
+                    <p class="mb-4 text-gray-700 text-justify">
                       So, you’re trying to land a UX job? Are you stressed? Be
                       honest. Interviews can induce stress in everyone – even
                       talented UX designers such...
@@ -384,7 +392,7 @@
                         <span class="text-gray-500">- 23 feb 2022</span>
                       </a>
                     </p>
-                    <p class="mb-4 text-gray-700">
+                    <p class="mb-4 text-gray-700 text-justify">
                       The design industry seems to be stuck in a neverending
                       debate over whether UI/UX designers should learn code.
                       What do you think? On one hand,...
@@ -397,7 +405,7 @@
                   </div>
                 </div>
                 <div
-                  class="mb-4 col-span-3 rounded-md transition-shadow duration-300 bg-white shadow-sm"
+                  class="mb-4 col-span-3 rounded-3xl transition-shadow duration-300 bg-white shadow-sm"
                 >
                   <img
                     src="https://images.unsplash.com/photo-1452830978618-d6feae7d0ffa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEzfHx3ZWJzaXRlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -420,7 +428,7 @@
                         <span class="text-gray-500">- 23 feb 2022</span>
                       </a>
                     </p>
-                    <p class="mb-4 text-gray-700">
+                    <p class="mb-4 text-gray-700 text-justify">
                       So, you’re a product designer whose landed an onsite or
                       virtual interview? Congratulations! Landing an interview
                       is a huge accomplishment – especially in an economy...
@@ -591,7 +599,7 @@
                 >
                 <a
                   href=""
-                  class="bg-slate-100 rounded-full py-3 px-4 w-32 text-center hover:bg-slate-50 capitalize"
+                  class="lg:block hidden bg-slate-100 rounded-full py-3 px-4 w-32 text-center hover:bg-slate-50 capitalize"
                   >uncategories</a
                 >
               </div>
