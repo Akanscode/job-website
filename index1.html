@@ -22,7 +22,7 @@
       <div class="relative">
         <nav x-data="{show:false}" class="z-10 w-full">
           <div
-            class="container lg:absolute -top-16 flex flex-wrap items-center justify-between px-4 mt-12 lg:px-20 mx-auto"
+            class="container lg:absolute absolute -top-16 flex flex-wrap items-center justify-between px-4 mt-12 lg:px-20 mx-auto"
           >
             <div class="flex flex-shrink-0 items-center mr-6">
               <a href="index.html">
@@ -56,7 +56,7 @@
             <div
               @click.away="show=false"
               :class="{'block': show, 'hidden': !show}"
-              class="block w-full flex-grow border-t lg:border-0 mt-0 lg:mt-0 md:flex md:justify-end md:w-auto"
+              class="block w-full bg-white shadow-2xl flex-grow border-t lg:border-0 mt-0 lg:mt-0 md:flex md:justify-end md:w-auto"
             >
               <div
                 class="space-x-5 py-4 flex flex-col lg:flex-row items-center"
@@ -94,7 +94,7 @@
           </div>
         </nav>
       </div>
-
+      <!--hero section-->
       <div
         class="w-full bg-center bg-cover h-[28rem]"
         style="
@@ -196,7 +196,7 @@
         <div class="px-2 py-16 md:px-24 lg:px-2 lg:py-2">
           <div class="relative -top-10">
             <div
-              class="container bg-white min-h-screen shadow-md rounded-md lg:py-12 py-6 lg:mx-20"
+              class="container bg-white min-h-screen min-w-full shadow-md rounded-md lg:py-12 py-6 lg:mx-20"
             >
               <div>
                 <form
