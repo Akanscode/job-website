@@ -22,7 +22,7 @@
       <div class="relative">
         <nav x-data="{show:false}" class="z-10 w-full">
           <div
-            class="container lg:absolute absolute -top-16 flex flex-wrap items-center justify-between px-4 mt-12 lg:px-20 mx-auto"
+            class="container lg:absolute -top-16 flex flex-wrap items-center justify-between px-4 mt-12 lg:px-20 mx-auto"
           >
             <div class="flex flex-shrink-0 items-center mr-6">
               <a href="index.html">
@@ -56,7 +56,7 @@
             <div
               @click.away="show=false"
               :class="{'block': show, 'hidden': !show}"
-              class="block w-full bg-white shadow-2xl flex-grow border-t lg:border-0 mt-0 lg:mt-0 md:flex md:justify-end md:w-auto"
+              class="block w-full flex-grow border-t lg:border-0 mt-0 lg:mt-0 md:flex md:justify-end md:w-auto"
             >
               <div
                 class="space-x-5 py-4 flex flex-col lg:flex-row items-center"
@@ -193,10 +193,12 @@
     </header>
     <section>
       <div class="bg-slate-100 bg-cover min-h-full min-w-full mx-auto">
-        <div class="px-2 py-16 md:px-24 lg:px-2 lg:py-2">
+        <div
+          class="px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+        >
           <div class="relative -top-10">
             <div
-              class="container bg-white min-h-screen min-w-full shadow-md rounded-md lg:py-12 py-6 lg:mx-20"
+              class="container bg-white min-h-screen shadow-md rounded-md lg:py-12 py-6 lg:mx-20"
             >
               <div>
                 <form
