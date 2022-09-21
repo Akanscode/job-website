@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Job Web</title>
+  <link rel="icon" href="https://cdn.freebiesupply.com/logos/thumbs/1x/jdc-logo.png">
   <link href="./assets/css/tailwind.min.css" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="./assets/js/alpine.min.js"></script>
-  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
@@ -24,7 +24,7 @@
                 alt="logo" />
             </a>
           </div>
-          <div class="block md:hidden">
+          <div class="block lg:hidden">
             <button @click="show=!show"
               class="flex items-center px-3 py-2 rounded text-slate-900 border border:bg-purple-900 hover:border-purle-800">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
@@ -36,9 +36,9 @@
             </button>
           </div>
           <div @click.away="show=false" :class="{'block': show, 'hidden': !show}"
-            class="block w-full flex-grow border-t lg:border-0 mt-0 lg:mt-0 md:flex md:justify-end md:w-auto">
+            class="block w-full flex-grow border-t lg:border-0 mt-0 lg:mt-0 lg:flex lg:justify-end lg:w-auto">
             <div class="space-x-5 py-4 flex flex-col lg:flex-row items-center">
-              <a href="index.html"
+              <a href="index1.html"
                 class="block md:inline-block text-base font-bold px-2 py-2 leading-none rounded-md lg:text-white hover:text-gray-700 hover:bg-purple-400 hover:border-b-4 hover:border-purple-600">Home</a>
               <a href="pricing.html"
                 class="block md:inline-block text-base font-bold px-2 py-2 leading-none rounded-md lg:text-white hover:text-gray-700 hover:bg-purple-400 hover:border-b-4 hover:border-purple-600 mt-4 md:mt-0">Pricing</a>
@@ -61,8 +61,8 @@
     </div>
     <!--hero section-->
     <div class="w-full bg-center bg-cover h-[28rem]" style="
-              background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-            ">
+            background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+          ">
       <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
         <div class="lg:mt-20 mt-10 mx-10">
           <h1 class="text-white text-xl lg:text-5xl text-center font-extrabold font-sans leading-none tracking-tight">
@@ -217,15 +217,15 @@
       </div>
     </div>
   </section>
-
   <footer class="bg-slate-50">
     <div class="container px-6 py-12 mx-auto">
       <div class="lg:flex lg:py-10">
         <div class="w-full -mx-6 lg:w-2/5">
           <div class="px-8">
             <div class="flex space-x-3">
-              <img class="h-10 w-10 rounded-full object-cover"
-                src="https://cdn.freebiesupply.com/images/thumbs/1x/apex-legends-logo.png" alt="brandlogo" />
+              <img class="h-20 w-20 rounded-3xl" src="https://cdn.freebiesupply.com/logos/thumbs/1x/jdc-logo.png"
+                alt="logo" />
+
               <a href="#" class="text-xl font-bold font-sans text-gray-900">Apex Digital Inc</a>
             </div>
 
@@ -301,6 +301,10 @@
       </div>
     </div>
   </footer>
+
+  <!--======script tab=======-->
+  <script src="./assets/js/alpine.min.js"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
 
 </html>
